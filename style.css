@@ -1,0 +1,110 @@
+body {
+    font-family: "Arimo", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    background-image: url("media/bg.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #f4f6f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 95vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card-white {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px 40px;
+    margin: 20px;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    padding: 20px 20px 60px 20px;
+}
+
+.card-white h1 {
+    font-family: 'EB Garamond', serif;
+    font-size: 72px;
+    font-weight: 100;
+    letter-spacing: -1px;
+    color: #004080;
+    text-align: center;
+}
+
+.card-white h2 {
+    font-family: 'EB Garamond', serif;
+    font-size: 48px;
+    font-weight: 100;
+    letter-spacing: -1px;
+    color: #004080;
+    text-align: center;
+}
+
+.card-white p {
+    font-family: 'Arimo', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #666;
+    text-align: center;
+}
+
+.btn-blue {
+    transition: 0.2s;
+    color: #fff;
+    font-size: 24px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #004080;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.btn-blue:hover {
+    background-color: #679fd6;
+}
+
+.card-white a {
+    transition: 0.2s;
+    color: #004080;
+    text-decoration: none;
+}
+
+.card-white a:hover {
+    color: #679fd6;
+}
+
+@media screen and (max-width: 600px) {
+    .card-white h1 {
+        font-size: 32px;
+    }
+
+    .btn-blue {
+        font-size: 18px;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .card-white p {
+        font-size: 16px;
+    }
+
+    .container {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    body {
+        padding: 0 10px;
+    }
+}
